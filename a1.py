@@ -9,14 +9,27 @@ functions defined below.
 
 
 def show_menu():
-	'''
-	Description: Prints the menu as shown in the PDF
-	
-	Parameters: No paramters
-	
-	Returns: No return value
-	'''
-	pass # Remove this line when you write this function
+        print("=======================================================")
+	print("                MY BAZZAR                              ")
+	print("=======================================================")
+	print("Hello! Welcome to my grocery store!                    ")
+	print("Following are the products available in the store :    ")
+	print(""
+																 "")
+	print("-------------------------------------------------------")
+	print("Code   | Description  |  Category    | Cost (in Rupees)")
+	print("  0    | T-shirt      | Apparel      | 500             ")
+	print("  1    | Trousers     | Apparel      | 600             ")
+	print("  2    | Scarf        | Apparel      | 250             ")
+	print("  3    | Smartphone   | Electronics  | 20,000          ")
+	print("  4    | iPad         | Electronics  | 30,000          ")
+	print("  5    | Laptop       | Electronics  | 50,000          ")
+	print("  6    | Eggs         | Eatables     | 5               ")
+	print("  7    | Chocolate    | Eatables     | 10              ")
+	print("  8    | Juice        | Eatables     | 100             ")
+	print("  9    | Milk         | Eatables     | 45              ")
+	print("-------------------------------------------------------")
+
 
 
 def get_regular_input():
