@@ -30,7 +30,10 @@ def show_menu():
 	print("  9    | Milk         | Eatables     | 45              ")
 	print("-------------------------------------------------------")
 
-
+def menu():
+	items = [["Tshirt", 10], ["Trousers", 20], ["Scarf", 40], ["Smartphone", 20000], ["iPad", 30000], ["Laptop", 50000],
+			 ["Eggs", 5], ["Chocolate", 10], ["Juice", 100], ["Milk", 45]]
+	
 
 def get_regular_input():
 	'''
