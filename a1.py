@@ -50,17 +50,18 @@ def get_regular_input():
 
 
 def get_bulk_input():
-	'''
-	Description: Takes inputs (only integers allowed) from a bulk buyer. 
-	For details, refer PDF. Include appropriate print statements to match 
-	the output with the screenshot provided in the PDF.
+	for x in range (0,10):
+		
+                user_input = input("Enter a two value: ")
+                try:
+                    x, y = user_input.split()
+                    print("Your item Code: ", x)
+                    print("Quantity: ", y)
+                except:
+		    print("Thank You for shopping")
+                    break
 	
-	Parameters: No parameters
 	
-	Returns: Returns a list of integers of length 10, where the i_th
-	element represents the quantity of the item with item code i.
-	'''
-	pass # Remove this line when you write this function
 
 
 def print_order_details(quantities):
