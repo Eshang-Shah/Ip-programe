@@ -50,7 +50,7 @@ def get_regular_input():
 
 
 def get_bulk_input():
-	for x in range (0,10):
+	for i in range (0,10):
 		
                 user_input = input("Enter a two value: ")
                 try:
